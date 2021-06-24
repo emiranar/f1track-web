@@ -36541,7 +36541,7 @@ qe:function(){var s=0,r=P.a6(t.z),q=this,p
 var $async$qe=P.a2(function(a,b){if(a===1)return P.a3(b,r)
 while(true)switch(s){case 0:p=R
 s=2
-return P.ah(G.aed(P.jR("https://newsapi.org/v2/everything?qInTitle=formula%20OR%20f1&language=tr&apiKey=9bd7ad3f380e49daa11b772cc0a4771e")),$async$qe)
+return P.ah(G.aed(P.jR("https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/everything?qInTitle=formula%20OR%20f1&language=tr&apiKey=9bd7ad3f380e49daa11b772cc0a4771e")),$async$qe)
 case 2:q.av(new p.aae(q,b))
 return P.a4(null,r)}})
 return P.a5($async$qe,r)}}
@@ -36604,7 +36604,7 @@ qj:function(){var s=0,r=P.a6(t.z),q=this,p
 var $async$qj=P.a2(function(a,b){if(a===1)return P.a3(b,r)
 while(true)switch(s){case 0:p=F
 s=2
-return P.ah(G.aed(P.jR("http://ergast.com/api/f1/current.json")),$async$qj)
+return P.ah(G.aed(P.jR("https://cors-anywhere.herokuapp.com/http://ergast.com/api/f1/current.json")),$async$qj)
 case 2:q.av(new p.abr(q,b))
 return P.a4(null,r)}})
 return P.a5($async$qj,r)}}
